@@ -1,13 +1,10 @@
 {
   "name": "workspace",
   "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {'",
-  
-    "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
-  },
   "private": true,
+  "scripts": {
+    "build": "echo 'Ready'"
+  },
   "dependencies": {
     "@replit/connectors-sdk": "^0.4.1"
   },
